@@ -51,7 +51,7 @@ def play_game():
     '''
     Plays one round of the hangman game.
     '''
-    print("Welcome to Com S 127 Hangman")
+    print("Welcome!")
 
     hidden = select_game_and_word()
     hangman.start(hidden, 6)
